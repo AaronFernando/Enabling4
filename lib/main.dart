@@ -95,7 +95,7 @@ class _DicePageState extends State<DicePage> {
               style: TextStyle(
                 fontSize: 20,
                 fontStyle: FontStyle.italic,
-                color: l == r ? Colors.lightGreen : Colors.redAccent
+                color: l == r ? Colors.lightGreen : Colors.red[300]
               ),
             ),
           )
